@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS</title>
+    <link rel="stylesheet" href="assets/plugin/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="navbar">
+        <div class="logo">
+            <a href="latihancss.html">LOGO</a>
+        </div>
+        <div class="menu">
+            <ul class="wrapper-list-menu">
+                <li>
+                    <a href="#about">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#articles">ARTICLES</a>
+                </li>
+                <li>
+                    <a class="subscribe" href="#subscribe" style="font-size: 12px;">SUBSCRIBE</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row banner">
+            <div class="col wrapper-banner position-relative">
+                <div class="box-text position-absolute top-50 start-50 translate-middle">
+                    <div class="text-center">
+                        <h1 class="art">ART OF PLANT</h1>
+                        <h5>ALL ABOUT ART OF NATURE</h5>
+                    </div>
+                </div>
+                <div class="box-image">                
+                    <img src="assets/img/Group 1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="row product-list mt-3" id="articles">
+            <div class="col-12">
+                    <h6 class="text-center" style="font-weight: bold;">LATEST ARTICLES</h6>
+                    <hr class="d-grid gap-2 col-1 mx-auto" size="4px">
+            </div>
+            <div class="row wrapper-box">
+                <div class="col-4 p-4">
+                    <div class="wrapper-box-list card shadow p-3 mb-5 bg-body rounded">
+                        <img class="w-100 rounded" src="assets/img/product-1.jpg">
+                        <div class="card-body text-center">                      
+                            <h6 style="font-weight: bold;"><i>Tittle Of Articles</i></h6>
+                            <p style="font-size: 13px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-4">
+                    <div class="wrapper-box-list card shadow p-3 mb-5 bg-body rounded">
+                        <img class="w-100 rounded" src="assets/img/product-2.jpg">
+                        <div class="card-body text-center">                      
+                            <h6 style="font-weight: bold;"><i>Tittle Of Articles</i></h6>
+                            <p style="font-size: 13px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 p-4">
+                    <div class="wrapper-box-list card shadow p-3 mb-5 bg-body rounded">
+                        <img class="w-100 rounded" src="assets/img/product-3.jpg">
+                        <div class="card-body text-center">                      
+                            <h6 style="font-weight: bold;"><i>Tittle Of Articles</i></h6>
+                            <p style="font-size: 13px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row product-detail" id="about">
+            <div class="box-left col-6 p-0">
+                <img class="w-100" src="assets/img/product-detail.jpg">
+            </div>
+            <div class="box-right col-6 d-flex justify-content-center align-items-center">
+                <div class="wrapper-desc-detail">
+                    <h6 class="text-center" style="font-weight: bold;">ABOUT</h6>
+                    <hr class="d-grid gap-2 col-1 mx-auto" size="4px">
+                    <p class="aligntext">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row box-subscribe" id="subscribe">
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <div class="wrapper-subscribe">
+                    <div class="text-center">
+                        <h6 style="font-weight: bold;">SUBSCRIBE</h6>                
+                        <p style="font-size: 12px;">Sign up to our newsletters</p>
+                    </div>
+                        <input type="text" class="form-control input-subscribe mb-3" name="subscribe" placeholder="Your email here...">
+                        <button type="button" class="btn btn-outline-secondary d-grid gap-2 col-3 mx-auto">SUBMIT</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-menu mt-4 mb-4">
+                <ul class="wrapper-footer-menu justify-content-end pe-4">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="latihancss.html">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

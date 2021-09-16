@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+#navbar {
+    width: 100%;
+    display: flex;   
+    padding: 20px 0;  
+    background-color: white;
+    flex-basis: 50%;
+}
+
+#navbar a {
+    font-size: 20px; 
+}
+
+.logo {
+    width: 100%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+.logo a {
+    color: #636e72;
+    text-decoration: none;
+}
+
+.menu {
+    width: 100%;
+    padding-right:  2%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrapper-list-menu {
+    display: flex;
+    list-style: none;
+    padding: 0;    
+}
+
+.wrapper-list-menu li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.wrapper-list-menu li a {
+    color: #636e72;
+    text-decoration: none;
+}
+
+.wrapper-list-menu li a:hover {
+    color:black;
+}
+
+.subscribe {
+    border-style: solid;
+    border-width: thin;
+    border-color: #636e72;
+    padding: 5px 5px;
+    font-weight: bold;
+}
+
+.banner .wrapper-banner {
+    padding: 0;
+}
+
+.banner .wrapper-banner img {
+    width: 100%;
+}
+
+/* .product-detail .wrapper-product-detail {
+    padding: 0;
+} */
+
+/* .h4detail {
+    padding: 25% 0 10px 50%;
+} */
+
+.product-detail .box-right {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.product-list {
+    background-color: #f4f7f4;
+    padding-top: 5%;
+}
+
+.box-text-productlist {
+    align-items:flex-end;
+}
+
+.product-list .card {
+    padding: 0;
+}
+
+.art {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.hr-center{
+    padding-left: 20%;
+}
+
+.wrapper-box {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+
+.aligntext {
+    padding-top: 5%;
+    text-align: justify;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.box-subscribe {
+    background-color: #f4f7f4;
+    margin: 0;
+}
+
+.wrapper-subscribe {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.input-subscribe {
+    background-color: #e9ece9;
+    font-size: 12px;
+    width: 400px;
+    border-radius: 0;
+    border-width: medium;
+    border-color: white;
+}
+
+.btn {
+    border-radius: 0%;
+    font-size: 12px;
+}
+
+.wrapper-footer-menu {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+.wrapper-footer-menu a {
+    color: #636e72;
+    text-decoration: none;
+}
+
+.wrapper-footer-menu a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.wrapper-footer-menu li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
